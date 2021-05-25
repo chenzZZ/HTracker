@@ -1,0 +1,13 @@
+<view class="ht-container">
+  <view class="ht-gauge">
+
+  </view>
+  <view class="ht-addlist">
+    <ht-icon class="ht-addlist-icon" icon="add" color="#f6f6f6" size="{{25}}"></ht-icon>
+    <input type="text" placeholder="{{newplacehold}}" value="{{addname}}" bindinput="inputedit" class="ht-addlist-input" bindtap="addList" />
+    <picker id="newtrackpicker" mode="multiSelector" range="{{newtrackpicker}}" value="{{multiIndex}}" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" bindchange="saveNewList">
+      <icon class="icon-box-img" type="success" size="30" color="#D0E9FF"></icon>
+    </picker>
+  </view>
+
+</view>

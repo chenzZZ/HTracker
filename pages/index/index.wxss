@@ -1,0 +1,59 @@
+page{
+  width:100%;
+  height:100%;
+}
+.weui-icon{
+  line-height:100%;
+}
+/*容器*/
+.ht-container{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-flow: column;
+  background:#d0e9ff;
+}
+.ht-gauge{
+  height:90%;
+
+}
+/*END*/
+
+/*添加list区域*/
+.ht-addlist{
+  height:10%;
+  margin:10rpx 20rpx;
+  display:flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  background:#82baeb7c;
+}
+.ht-addlist .ht-addlist-icon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ht-addlist .weui-icon{
+  margin:0 5rpx;
+}
+.ht-addlist-input{
+ width:80%;
+ height:90%;
+ font-size: 35rpx;
+ color:#808080;
+}
+.ht-listtype{
+  background:#fff;
+  height:10%;
+}
+/*#newtrackpicker{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: black;
+  right: 20rpx;
+  border-radius: 50%;  
+}*/
+/*END*/

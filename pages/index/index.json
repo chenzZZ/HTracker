@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "ht-icon":"weui-miniprogram/icon/icon"
+  }
+}

@@ -1,0 +1,33 @@
+{
+	"pages": [
+		"pages/index/index",
+		"pages/hobby/hobby",
+		"pages/habit/habit",
+		"pages/coms/comdetails"
+	],
+	"window": {
+		"backgroundColor": "#F6F6F6",
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#F6F6F6",
+		"navigationBarTitleText": "Habit Tracker",
+		"navigationBarTextStyle": "black"
+	},
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "仪表盘"
+			},
+			{
+				"pagePath": "pages/hobby/hobby",
+				"text": "爱好"
+			},
+			{
+				"pagePath": "pages/habit/habit",
+				"text": "习惯"
+			}
+		]
+	},
+	"sitemapLocation": "sitemap.json",
+	"style": "v2"
+}
