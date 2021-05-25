@@ -8,17 +8,13 @@ Page({
 		showtracktype:false,
 		showrecordtype:false,
 		newplacehold:'请添加想要追踪的爱好/习惯...',
-		newtype:[
-			{"text":"爱好","value":"hobby"},
-			{"text":"习惯","value":"habit"}
-		],
-		recordtype:[
-			{"show":"打卡","value":"check"},
-			{"show":"进度条","value":"slide"}
-		],
 		newtrackpicker:[
 			["——追踪类型——","爱好","习惯"],
 			["——记录方式——","打卡","进度条"]
+		],
+		trackpickervalue:[
+			["","hobby","habit"],
+			["","check","slide"]
 		],
 		multiIndex:[0,0,0]
 	},
@@ -39,6 +35,9 @@ Page({
 	},
 	saveNewList:function(e){
 		let that = this;
-		console.log(that.data.addname)
+		const details = e.detail.value;
+		const tracktxt = that.data.addname;console.log(tracktxt);
+		const tracktype = that.data.trackpickervalue[0][details[0]];
+		const recordtype = that.data.trackpickervalue[1][details[1]];
 	}
 })
